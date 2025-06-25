@@ -1,0 +1,26 @@
+p {
+    color: aqua;
+}
+
+div {
+    background-color: bisque;
+}
+
+footer { 
+    border: 1px solid black;
+    text-align: center;
+}
+
+article:hover {
+    box-shadow: 4px 2px 5px 0px gray;
+}
+
+button {
+    border: 1px solid gray;
+    background-color: #f4f4f4;
+    transition: 2s transform;
+}
+
+button:active {
+    transform: scale(2) rotate(360deg) ;
+}
