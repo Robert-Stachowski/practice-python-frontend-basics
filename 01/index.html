@@ -8,43 +8,56 @@
     <meta name="description" content="Nauczyć się programowania z Mentorem!">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    <header>
-        <a href="/">
-            <img src="./img/logo.png" width=200 height=200 "Image by shazia asif from Pixabay">
-        </a>
+<body >
+    
+        <div class="background"></div>
 
-        <nav>
+        <header class="header">
+            <img src="./img/logo.png" title="Image by shazia asif from Pixabay" class="logo">
+            <div class="menu-wrapper">
+                <nav class="navbar">
+                    <ul class="menu">
+                        <li><a href="#home">Strona główna</a></li>
+                        <li>
+                            <a href="#offer">Oferta</a>
+                            <ul class="submenu">
+                                <li><a href="#Bushcraft">Oferta Bushcraftowa</a></li>
+                                <li><a href="#Survival">Oferta Survivalowa</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+         <div class="content"></div>
+            
+            
+
+            
+    
+            <main>
+                <article>
+                    <h2>Przykładowy tytuł</h2>
+                    <p>Tutaj dużo treści</p>
+                </article>
+            </main>
+        
+            <label>Imię
+                <input type="text">
+            </label>
+                <input type="submit">
             <ul>
-                <li>
-                    <a href="/">home</a>
-                </li>
-                <li>
-                    <a href="/">Kontakt</a>
-                </li>
+                <li><a href="#">tadam</a></li>
             </ul>
 
-        </nav>
-<main>
-    <article>
-        <h2>Przykładowy tytuł</h2>
-        <p>Tutaj dużo treści</p>
-    </article>
-</main>
-    </header>
-    <label>Imię
-        <input type="text">
-    </label>
-    <input type="submit">
-    <ul>
-        <li><a href="#">tadam</a></li>
-    </ul>
+            <button>Kliknij mnie</button>
 
-<button>Kliknij mnie</button>
-
-    <footer>
-        <div>Copyright &copy; 2025 by RS</div>
-    </footer>
-    
-</body>
+            <footer>
+                <div>Copyright &copy; 2025 by RS</div>
+            </footer>
+        </div>
+    </body>
 </html>
