@@ -25,7 +25,7 @@ z-index: 1;
 padding: 2rem;
 color: #000;
 font-size: 1.2rem;
-max-width: 1000px;
+max-width: 800px;
 margin: 2rem auto;
 }
 
@@ -129,3 +129,16 @@ margin-bottom: 0.5rem;
 .header_one {
 margin-bottom: 0.5rem;
 }
+
+table {
+width: 100%;
+margin: 1rem 0;
+border-collapse: collapse;
+}
+
+td, th {
+text-align: left;
+padding: 0.5rem;
+border: 1px solid #000;
+}
+
