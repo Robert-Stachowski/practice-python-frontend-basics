@@ -128,7 +128,8 @@ margin-bottom: 0.5rem;
 
 .header_one {
 margin-bottom: 0.5rem;
-text-decoration: dashed;
+font-size: 3rem;
+
 }
 
 table {
@@ -141,5 +142,37 @@ td, th {
 text-align: left;
 padding: 0.5rem;
 border: 1px solid #000;
+}
+
+.header_one + p {
+  padding: 1rem;
+}
+
+form {
+padding: 1rem;
+width: 400px;
+margin: 0 auto;
+}
+
+form label,
+form textarea,
+form input {
+display: block;
+margin-bottom: 1rem;
+}
+
+form input[type="submit"] {
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  background-color: #7ee683;
+  margin: 0 auto;
+  width: 150px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #45a049;
+  
 }
 
