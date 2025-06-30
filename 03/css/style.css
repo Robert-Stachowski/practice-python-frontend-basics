@@ -4,11 +4,20 @@
   box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Source_Sans_PRO";
+    src: url(../font/SourceSansPro-Regular.otf) format("opentype");
+}
+
+body {
+font-family: "Source_Sans_PRO", serif;
+}
+
 .parent {
 width: 600px;
 padding: 20px;
 display: flex;
-gap: 20px;
+gap: 10px;
 }
 
 
