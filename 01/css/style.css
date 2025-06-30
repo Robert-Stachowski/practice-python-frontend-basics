@@ -176,3 +176,39 @@ form input[type="submit"]:hover {
   
 }
 
+.comments_a {
+  display: inline-block;
+  width: 300px;
+  
+  vertical-align: top;
+  text-align: center;
+ 
+  
+}
+
+.comm_div{
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  border: 1px solid black ;
+
+  
+}
+
+.comm_author {
+  display: block;
+  margin-bottom: 0.5rem;
+  
+
+}
+
+.comments {
+  display: block;
+  width: 200px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  overflow: auto;
+} 
+
