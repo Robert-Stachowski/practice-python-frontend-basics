@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+.header {
+/*border: 1px solid black;*/
+display: flex;
+align-items: flex-start;
+position: relative;
+
+height: 200px;
+}
+
+
+.menu-wrapper {
+flex: 1;
+align-self: flex-end;
+height: 66px;
+display: flex;
+justify-content: center;
+
+}
+
+.menu {
+list-style: none;
+display: flex;
+margin: 0;
+padding: 0 1rem;
+width: 100%;
+}
+
+.menu > li {
+position: relative;
+margin-right: 3rem;
+}
+
+.menu >li > a {
+text-decoration: none;
+color: #000;
+padding: 0.5rem 1rem;
+display: block;
+font-weight: bold;
+}
+
+.submenu {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+list-style: none;
+margin: 0;
+font-weight: bold;
+}
+.submenu li {
+position: relative;
+}
+
+.submenu a,
+.submenu a:link,
+.submenu a:visited,
+.submenu a:hover,
+.submenu a:active {
+text-decoration: none;
+color: #000;
+display: block;
+}
+
+.menu li:hover > .submenu {
+display: block;
+}
+
+.subsubmenu {
+display: none;
+flex-direction: column;
+position: absolute;
+top: 0;
+list-style: none;
+font-weight: bold;    
+left: 100%;
+padding: 10px;
+min-width: 150px;
+gap: 10px;
+}
+
+
+
+.submenu li:hover > .subsubmenu {
+display: flex;
+}
