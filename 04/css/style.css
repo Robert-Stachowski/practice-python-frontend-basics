@@ -1,7 +1,7 @@
 *{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
 }
 
 body {
@@ -12,7 +12,6 @@ padding: 40px 0 0 0;
 
 nav {
 width: 100%;
-margin: 0 auto;
 }
 
 
@@ -22,29 +21,7 @@ display: flex;
 padding: 18px 0 5px 0;
 background: #FFFFFF;
 font-size: 0;
-
 }
-
-.znak_submenu > a .znak {
- margin-left: auto;
- color: #c2c1c1;
- font-size: 13px;
- transition: color .2s;
-}
-
-.znak_menu > a .znak_dół {
-display: inline-block;
-transform: rotate(90deg);
-font-size: 13px;
-margin-left: 5px;
-color: #26a9e0;
-}
-
-.znak_submenu:hover > a .znak {
-color: #F5F0E2;
-}
-
-
 
 .menu > li {
 position: relative;
@@ -59,7 +36,6 @@ padding: 8px 0 6px 0;
 display: block;
 font-weight: 500;
 border-top: 2px solid transparent;
-transition: color .2s, border-top .2s;
 }
 
 .menu > li:hover > a,
@@ -68,27 +44,23 @@ color: #26a9e0;
 border-top: 2px solid #26a9e0;
 }
 
-
-
-.submenu li > a,
-.subsubmenu li > a {
-display: flex;
-align-items: center;
-width: 210px;
-height: 44px;
-padding: 0 22px;
-color: #c2c1c1;
-text-decoration: none;
-font-weight: 400;
-font-size: 15px;
-transition: background 0.18s, color 0.2s, font-weight 0.2s;
-background: transparent;
-border: none;
-cursor: pointer;
+.sign_menu > a .sign_dół {
+display: inline-block;
+transform: rotate(90deg);
+font-size: 13px;
+margin-left: 5px;
+color: #26a9e0;
 }
 
+.sign_submenu > a .sign {
+margin-left: auto;
+color: #c2c1c1;
+font-size: 13px;
+}
 
-
+.sign_submenu:hover > a .sign {
+color: #F5F0E2;
+}
 
 .submenu,
 .subsubmenu {
@@ -104,38 +76,45 @@ z-index: 100;
 padding: 0;
 }
 
-
-
-.submenu li,
-.subsubmenu li  {
-position: relative;
-background-color:#333333 ;
-cursor: pointer;
-}
-
-
 .menu li:hover > .submenu {
 display: block;
-
 }
 
-
-.submenu li > a:hover,
-.subsubmenu li > a:hover,
-.submenu li:has(.subsubmenu:hover) > a {
-background: #333333;
-color: #F5F0E2;
-
-}
-
-
-
-.znak_submenu:hover > .subsubmenu {
+.sign_submenu:hover > .subsubmenu {
 display: block;
 top: 0;
 left: 100%;
 min-width: 210px;
 }
+
+.submenu li,
+.subsubmenu li  {
+position: relative;
+cursor: pointer;
+}
+
+.submenu li > a,
+.subsubmenu li > a {
+display: flex;
+align-items: center;
+width: 210px;
+height: 44px;
+padding: 0 22px;
+color: #c2c1c1;
+text-decoration: none;
+font-weight: 400;
+font-size: 15px;
+border: none;
+cursor: pointer;
+}
+
+.submenu li > a:hover,
+.subsubmenu li > a:hover,
+.submenu li:has(.subsubmenu:hover) > a {
+color: #F5F0E2;
+}
+
+
 
 
 
