@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -15,15 +15,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
+
+
 }
 
 .footer_container {
     max-width: 1000px;
     width: 100%;
     text-align: center;
-    
+
 }
 
 .logo img {
@@ -44,7 +44,7 @@ header {
     justify-content: space-between;
     padding: 16px 0;
     margin: 0 auto;
-    
+
 }
 
 .menu {
@@ -52,13 +52,12 @@ header {
     display: flex;
     font-size: 25px;
     gap: 24px;
-    
+
 }
 
 .container_one {
     max-width: 1000px;
     display: flex;
-    justify-content: space-between;
     gap: 24px;
     margin: 0 auto;
     padding: 16px 0;
@@ -67,19 +66,20 @@ header {
 .article_one,
 .article_two {
     width: 100%;
-    
-    
+
+
 }
 
 .container_two {
     max-width: 1000px;
     display: flex;
-    gap: 24px;          /*trochę na piechotę, ale działa ;P */
-    margin: 0 auto; 
+    gap: 24px;
+    /*trochę na piechotę, ale działa ;P */
+    margin: 0 auto;
     padding: 24px;
 }
 
-.container_two > p {
+.container_two>p {
     flex: 1;
     text-align: left;
 }
