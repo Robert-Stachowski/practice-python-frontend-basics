@@ -15,7 +15,6 @@
     src: url(../font/SourceSansPro-Bold.otf) format("opentype");
     font-style: normal;
     font-weight: bold
-        /* czy powtarzanie tu i w clasie tego samego dla fontu jest ok, bo to chyba nie zgodne z DRY? */
 }
 
 @font-face {
