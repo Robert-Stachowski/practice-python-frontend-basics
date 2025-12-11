@@ -78,7 +78,10 @@ header {
     padding: 24px;
 }
 
-.container_two>p {
+.container_two > .col,
+.container_one > .col {
     flex: 1;
     text-align: left;
 }
+
+ 
