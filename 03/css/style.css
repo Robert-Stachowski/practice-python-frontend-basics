@@ -29,14 +29,12 @@
 }
 
 .child.child--first {
-    padding-right: 10px;
     font-family: "Source_Sans_PRO", serif;
     font-style: normal;
     width: 30%;
 }
 
 .child.child--middle {
-    padding-right: 10px;
     font-family: "Source_Sans_PRO_Bold", serif;
     font-weight: bold;
     font-style: normal;
@@ -75,4 +73,5 @@
 
 .parent.parent--flexbox {
     display: flex;
+    gap:  20px;
 }
